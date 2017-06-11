@@ -2,7 +2,7 @@
 from random import randint
 
 def randomPassword(password_length=5):
-    letters = ['a', 'b', 'c', 'd', 'e','0','4']
+    letters = ['a', 'b', 'c', 'd', 'e','f','g','h','i','j','0','1', '2', '3', '4','5','6','7','8','9']
     password = '';
     i = 0
     while(i < password_length):
